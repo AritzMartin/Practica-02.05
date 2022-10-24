@@ -1,2 +1,4 @@
 asignaturas = ['Matemática', 'Lengua', 'Historia', 'Física', 'Química']
-print(list(asignaturas))
+
+for lista in asignaturas:
+    print('Yo estudio:', lista)
